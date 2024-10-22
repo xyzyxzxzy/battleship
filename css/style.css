@@ -1,0 +1,31 @@
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(11, 40px);
+    grid-template-rows: repeat(11, 40px);
+    gap: 1px;
+    border: 1px solid #000;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    background: #4c2bff;
+}
+
+.occupied {
+    background-color: gray;
+}
+
+.header {
+    font-weight: bold;
+    background-color: #f0f0f0;
+}
+
+.row {
+    display: flex;
+}
