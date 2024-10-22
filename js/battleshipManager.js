@@ -1,4 +1,4 @@
-class SeaBattle {
+class BattleshipManager {
     constructor(n, m) {
         this.n = n;
         this.m = m;
@@ -96,4 +96,4 @@ class SeaBattle {
     }
 }
 
-export { SeaBattle };
+export { BattleshipManager };
